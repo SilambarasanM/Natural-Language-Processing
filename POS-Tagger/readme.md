@@ -1,4 +1,4 @@
-Project 2: Part of speech tagger
+#Project: Part of speech tagger
 
 The assignment is in Java.
 http://java.sun.com/
