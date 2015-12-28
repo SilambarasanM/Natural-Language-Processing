@@ -4,11 +4,6 @@ The assignment is in Java.
 http://java.sun.com/
 The JDK is needed to compile and run this assignment.
 
-Please supply which version of Java you are using with your submission.
-~> java -version
-will tell you which version you have.
-It should be something like "1.5.0_12".
-
 To build, you should have ant installed.
 http://ant.apache.org/
 It might also be convenient to have make.
@@ -30,7 +25,7 @@ Or, if you also have make:
 
 (Your IDE may take care of that step automatically.)
 
-To run:
+##To run:
 ~> cd bin
 ~/bin> java -Xmx512m cs481.postag.POSTag ../dat/train.xml ../dat/test_1.xml out.xml
 
@@ -43,10 +38,3 @@ In the default configuration, that should return:
 *** Similarity = 27308 / 28432 = 96.04670793472144 %
 
 
-
-Grading:
-
-To grade this assignment, I have a separate testing set test_2.xml.
-I will run your program on test_2.xml and see what
-accuracy it gets according to POSDiff as above.
-This is will be the accuracy component of your grade.
