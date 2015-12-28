@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This is the build file for cs585 mp4-->
+<project name="mp4" default="mp4" basedir=".">
+	<target name="mp4">
+		<mkdir dir="bin"/>
+		<javac includeantruntime="no" optimize="yes" srcdir="src" destdir="bin"/>
+	</target>
+	<target name="clean">
+		<delete dir="bin"/>
+	</target>
+</project>

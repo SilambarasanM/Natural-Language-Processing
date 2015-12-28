@@ -1,0 +1,5 @@
+this is a simple sentence .
+N( S( PRN( S( NP-PRD( DT( this( ))))), VP( VBZ( is( )), NP( DT( a( ))))))SBAR( S( NP( NP( NP( NP( S( NP( NP( S( ADJP-PRD( ADJP( JJ( simple( ))))))))), NP( NP( NN( sentence( )))), PUNC.( .( )))))))PRN( S( PRN( S( NP-PRD( DT( this( ))))), VP( VBZ( is( )), NP( DT( a( ))))))
+
+this sentence is a little bit more complex .
+PRN( S( NP-PRD( DT( this( )))))ADVP( ADVP( ADVP( ADVP( ADVP( ADVP( ADVP( ADVP( ADVP( ADVP( ADVP( NN( sentence( )))), SBAR( S( VP( VBZ( is( ))))))))))))), SBAR( S( NP( NP( NP( NP( NP( NP( NP( S( NP( NP( S( ADJP-PRD( ADJP( NP( S( NP( NP( DT( a( )))))), JJ( little( ))))))))), ADJP( NP( NP( NN( bit( )))), JJR( more( ))))), NP( JJ( complex( ))))))))))PUNC.( .( ))PRN( S( NP-PRD( DT( this( )))))

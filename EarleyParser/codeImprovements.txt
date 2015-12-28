@@ -1,0 +1,14 @@
+Modify the code to output the parse tree(s) computed, rather than just the dynamic programming table and whether the sentence parses. You will need to add appropriate back-links into the DP table and write a routine to extract trees from the table. Show the tree(s) by printing the input sentence in a bracketed form, for example:
+S[ NP[ Det[ the ] N[ man ] ] VP[ V[ saw ] NP[ PN[ her ] ] ] ]
+
+Code Improvements Implemented:
+
+1. Routine addPointer() was added to Grammar.java to store the back-links as the children of the productions which make progress from their current position.
+2. Routine attach() within Grammar.java was modified to add a back-links whenever a production was identified with a progress in the position.
+2. Routine parse() in Grammar.java was modified to return the production with the parse structure, so that it can be recursively printed.
+3. Routine recurivePrint() within Production.java was modified to print the productions recursively by the child productions that are linked to it.
+4. In addition, each of the progress made have been stored in a variable and printed using print() routine in Grammar.java, to verify the output of the parsing.
+
+
+Sample Execute Command:
+java earleyParser C:\\Earleyparser\\grammars\\simple.gr C:\\Earleyparser\\examples\\sentences.txt > parse.txt

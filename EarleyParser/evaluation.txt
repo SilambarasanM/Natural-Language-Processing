@@ -1,0 +1,70 @@
+Evaluation of Earley Parser:
+----------------------------
+Evaluate the parser in its current form:
+>>> What sorts of sentences can it parse? <<<
+
+SENTENCE: she was driving a jetcar to chicago
+POSSIBLE PARSES:
+S[ NP[ FPRON[she] ] VP[ VBAR[ VBAR[ FAUX[was] FV[driving] ] NP[ FD[a] NBAR[ FN[jetcar] ] ] ] VBAR-MODS[ PP[ FP[to] NP[ FNAME[chicago] ] ] ] ] ]
+S[ NP[ FPRON[she] ] VP[ VBAR[ VBAR[ FAUX[was] FV[driving] ] NP[ FD[a] NBAR[ FN[jetcar] NBAR-MODS[ PP[ FP[to] FNAME[chicago] ] ] ] ] ]
+S[ NP[ FPRON[she] ] VP[ VBAR[ VBAR[ FAUX[was] FV[driving] ] NP[ FD[a] NBAR[ FN[jetcar] ] PP[ FP[to] NP[ FNAME[chicago] ] ] ] ]
+
+SENTENCE: did he drive from chicago
+POSSIBLE PARSES:
+S [ FAUX [ did ] NP [ FPRON [ he ]  ] VP [ VBAR [ FV [ drive ]  ] VBAR-MODS [ PP [ FP [ from ] NP [ FNAME [ chicago ]  ]  ]  ]  ]  ] 
+
+SENTENCE: they will give the watermelons to john
+POSSIBLE PARSES:
+S[ NP[ FPRON[they] ] VP[ VBAR[ VBAR[ FAUX[will] FV[give] ] NP[ FD[the] NBAR[ FN[watermelons] ] ] PP[ FP[to] FNAME[john] ] ] ] ]
+S[ NP[ FPRON[they] ] VP[ VBAR[ VBAR[ FAUX[will] FV[give] ] NP[ FD[the] NBAR[ FN[watermelons] ] ] ] VBAR-MODS[ PP[ FP[to] FNAME[john] ] ] ] ]
+
+
+
+
+
+>>> What types of sentences will it fail to parse? <<<
+
+SENTENCE: john lives on this planet
+CAUSE OF FAILURE:  Grammar did not include a determiner as a part of prepositional phrase. Only pp recognizable is pp -> fp np.
+
+SENTENCE: he gives a jetcar to steal the watermelon
+CAUSE OF FAILURE: infinitives are not recognized by the grammar.
+
+SENTENCES: i will have to drive a jetcar / i will be driving to chicago
+CAUSE OF FAILURE: have/be words not included in grammar
+
+SENTENCE: she and i will drive to chicago
+CAUSE OF FAILURE: conjuctions not included in grammar
+
+SENTENCE: give this car
+CAUSE OF FAILURE: There are no sentences that start with a verb in the given grammar.
+
+SENTENCE: i give and live
+CAUSE OF FAILURE: conjuctions not included in grammar
+
+SENTENCE: he lives in chicago so they will give him a jetcar
+CAUSE OF FAILURE: conjuctions not included in grammar
+
+
+
+
+
+>>> What improvements are required for the failed sentences? <<<
+
+Addition of Productions to the grammar will improvise the performance of the parser.
+
+For example, 
+
+PRODUCTION ADDED	|		SENTENCE PARSED
+----------------	|		---------------
+					|
+NP -> NP FCNJ NP	|		she and i will drive to chicago
+FCNJ -> and			|
+					|
+VP -> VP FCNJ VP	|		I give and live
+FCNJ -> and			|
+					|
+S -> S FCNJ S		|		he lives in chicago so they will give a jetcar
+FCNJ -> so			|
+					|
+NBAR -> FNAME		|		john lives on this planet

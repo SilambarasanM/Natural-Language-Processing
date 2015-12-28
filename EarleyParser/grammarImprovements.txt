@@ -1,0 +1,29 @@
+Look at the grammar. What changes to the grammar alone could improve the parsing (in particular, consider coordinated conjunctions)? Modify the grammar somewhat and evaluate the improvements. What new sentences may be parsed?
+
+IMPROVEMENTS:
+-------------
+
+NP -> NP FCNJ NP
+VP -> VP FCNJ VP
+S -> S FCNJ S
+FCNJ -> and
+FCNJ -> so
+FCNJ -> but
+NBAR -> FNAME
+
+Moreover, addition of more terminals in each category could improve the wide range of sentences that could be parsed.
+
+NEW SENTENCES THAT CAN BE PARSED:
+--------------------------------
+
+SENTENCE: she and i will drive to chicago
+PARSE: S [ NP [ NP [ FPRON [ she ]  ] FCNJ [ and ] NP [ FPRON [ i ]  ]  ] VP [ VBAR [ FAUX [ will ] FV [ drive ]  ] VBAR-MODS [ PP [ FP [ to ] NP [ FNAME [ chicago ]  ]  ]  ]  ]  ] 
+
+SENTENCE: I give and live
+PARSE: S [ NP [ FPRON [ i ]  ] VP [ VP [ VBAR [ FV [ give ]  ]  ] FCNJ [ and ] VP [ VBAR [ FV [ live ]  ]  ]  ]  ] 
+
+SENTENCE: he lives in chicago so they will give him a jetcar
+PARSE: S [ S [ NP [ FPRON [ he ]  ] VP [ VBAR [ FV [ lives ]  ] VBAR-MODS [ PP [ FP [ in ] NP [ FNAME [ chicago ]  ]  ]  ]  ]  ] FCNJ [ so ] S [ NP [ FPRON [ they ]  ] VP [ VBAR [ VBAR [ FAUX [ will ] FV [ give ]  ] NP [ FD [ a ] NBAR [ FN [ jetcar ]  ]  ]  ]  ]  ]  ] 
+
+SENTENCE: john lives on this planet
+PARSE: S [ NP [ FNAME [ john ]  ] VP [ VBAR [ FV [ lives ]  ] VBAR-MODS [ PP [ FP [ on ] NP [ FD [ this ] NBAR [ FNAME [ planet ]  ]  ]  ]  ]  ]  ] 

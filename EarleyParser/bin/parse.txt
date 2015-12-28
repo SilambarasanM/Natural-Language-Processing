@@ -1,0 +1,249 @@
+=====================================
+john lives on this planet
+
+Column 0: ROOT
+------------------------
+0	ROOT->	.	s
+0	s->	.	np	vp
+0	s->	.	faux	np	vp
+0	s->	.	np	fis	np
+0	s->	.	s	fcnj	s
+0	np->	.	fname
+0	np->	.	fname	fname
+0	np->	.	fpron
+0	np->	.	nbar
+0	np->	.	fd	nbar
+0	np->	.	np	fcnj	np
+0	faux->	.	do
+0	faux->	.	did
+0	faux->	.	does
+0	faux->	.	will
+0	faux->	.	was
+0	faux->	.	is
+0	fname->	.	buckaroo
+0	fname->	.	banzai
+0	fname->	.	john
+0	fname->	.	whorfin
+0	fname->	.	planet
+0	fname->	.	earth
+0	fname->	.	chicago
+0	fname->	.	ten
+0	fpron->	.	i
+0	fpron->	.	we
+0	fpron->	.	us
+0	fpron->	.	you
+0	fpron->	.	he
+0	fpron->	.	she
+0	fpron->	.	it
+0	fpron->	.	they
+0	nbar->	.	fn
+0	nbar->	.	fname
+0	nbar->	.	fn	nbar-mods
+0	fd->	.	a
+0	fd->	.	the
+0	fd->	.	this
+0	fd->	.	these
+0	fn->	.	jetcar
+0	fn->	.	alien
+0	fn->	.	aliens
+0	fn->	.	watermelon
+0	fn->	.	watermelons
+
+Column 1: john
+------------------------
+0	fname->	john	.
+0	np->	fname	.
+0	np->	fname	.	fname
+0	nbar->	fname	.
+0	s->	np	.	vp
+0	s->	np	.	fis	np
+0	np->	np	.	fcnj	np
+1	fname->	.	buckaroo
+1	fname->	.	banzai
+1	fname->	.	john
+1	fname->	.	whorfin
+1	fname->	.	planet
+1	fname->	.	earth
+1	fname->	.	chicago
+1	fname->	.	ten
+0	np->	nbar	.
+1	vp->	.	vbar
+1	vp->	.	vbar	vbar-mods
+1	vp->	.	vp	fcnj	vp
+1	fis->	.	is
+1	fcnj->	.	and
+1	fcnj->	.	so
+1	vbar->	.	fv
+1	vbar->	.	faux	fv
+1	vbar->	.	vbar	np
+1	vbar->	.	vbar	np	np
+1	vbar->	.	vbar	np	pp
+1	fv->	.	drive
+1	fv->	.	drives
+1	fv->	.	driven
+1	fv->	.	driving
+1	fv->	.	give
+1	fv->	.	gives
+1	fv->	.	live
+1	fv->	.	lives
+1	fv->	.	steal
+1	fv->	.	steals
+1	faux->	.	do
+1	faux->	.	did
+1	faux->	.	does
+1	faux->	.	will
+1	faux->	.	was
+1	faux->	.	is
+
+Column 2: lives
+------------------------
+1	fv->	lives	.
+1	vbar->	fv	.
+1	vp->	vbar	.
+1	vp->	vbar	.	vbar-mods
+1	vbar->	vbar	.	np
+1	vbar->	vbar	.	np	np
+1	vbar->	vbar	.	np	pp
+0	s->	np	vp	.
+1	vp->	vp	.	fcnj	vp
+2	vbar-mods->	.	pp
+2	vbar-mods->	.	pp	vbar-mods
+2	np->	.	fname
+2	np->	.	fname	fname
+2	np->	.	fpron
+2	np->	.	nbar
+2	np->	.	fd	nbar
+2	np->	.	np	fcnj	np
+0	ROOT->	s	.
+0	s->	s	.	fcnj	s
+2	fcnj->	.	and
+2	fcnj->	.	so
+2	pp->	.	fp	np
+2	fname->	.	buckaroo
+2	fname->	.	banzai
+2	fname->	.	john
+2	fname->	.	whorfin
+2	fname->	.	planet
+2	fname->	.	earth
+2	fname->	.	chicago
+2	fname->	.	ten
+2	fpron->	.	i
+2	fpron->	.	we
+2	fpron->	.	us
+2	fpron->	.	you
+2	fpron->	.	he
+2	fpron->	.	she
+2	fpron->	.	it
+2	fpron->	.	they
+2	nbar->	.	fn
+2	nbar->	.	fname
+2	nbar->	.	fn	nbar-mods
+2	fd->	.	a
+2	fd->	.	the
+2	fd->	.	this
+2	fd->	.	these
+2	fp->	.	in
+2	fp->	.	on
+2	fp->	.	to
+2	fp->	.	from
+2	fn->	.	jetcar
+2	fn->	.	alien
+2	fn->	.	aliens
+2	fn->	.	watermelon
+2	fn->	.	watermelons
+
+Column 3: on
+------------------------
+2	fp->	on	.
+2	pp->	fp	.	np
+3	np->	.	fname
+3	np->	.	fname	fname
+3	np->	.	fpron
+3	np->	.	nbar
+3	np->	.	fd	nbar
+3	np->	.	np	fcnj	np
+3	fname->	.	buckaroo
+3	fname->	.	banzai
+3	fname->	.	john
+3	fname->	.	whorfin
+3	fname->	.	planet
+3	fname->	.	earth
+3	fname->	.	chicago
+3	fname->	.	ten
+3	fpron->	.	i
+3	fpron->	.	we
+3	fpron->	.	us
+3	fpron->	.	you
+3	fpron->	.	he
+3	fpron->	.	she
+3	fpron->	.	it
+3	fpron->	.	they
+3	nbar->	.	fn
+3	nbar->	.	fname
+3	nbar->	.	fn	nbar-mods
+3	fd->	.	a
+3	fd->	.	the
+3	fd->	.	this
+3	fd->	.	these
+3	fn->	.	jetcar
+3	fn->	.	alien
+3	fn->	.	aliens
+3	fn->	.	watermelon
+3	fn->	.	watermelons
+
+Column 4: this
+------------------------
+3	fd->	this	.
+3	np->	fd	.	nbar
+4	nbar->	.	fn
+4	nbar->	.	fname
+4	nbar->	.	fn	nbar-mods
+4	fn->	.	jetcar
+4	fn->	.	alien
+4	fn->	.	aliens
+4	fn->	.	watermelon
+4	fn->	.	watermelons
+4	fname->	.	buckaroo
+4	fname->	.	banzai
+4	fname->	.	john
+4	fname->	.	whorfin
+4	fname->	.	planet
+4	fname->	.	earth
+4	fname->	.	chicago
+4	fname->	.	ten
+
+Column 5: planet
+------------------------
+4	fname->	planet	.
+4	nbar->	fname	.
+3	np->	fd	nbar	.
+2	pp->	fp	np	.
+3	np->	np	.	fcnj	np
+2	vbar-mods->	pp	.
+2	vbar-mods->	pp	.	vbar-mods
+1	vp->	vbar	vbar-mods	.
+0	s->	np	vp	.
+1	vp->	vp	.	fcnj	vp
+0	ROOT->	s	.
+0	s->	s	.	fcnj	s
+
+
+Back Links
+------------------
+0	np->	fname	.		=>	{	0	fname->	john	.}
+2	pp->	fp	np	.		=>	{	2	fp->	on	. ,	3	np->	fd	nbar	.}
+2	vbar-mods->	pp	.		=>	{	2	pp->	fp	np	.}
+1	vp->	vbar	vbar-mods	.		=>	{	1	vbar->	fv	. ,	2	vbar-mods->	pp	.}
+0	nbar->	fname	.		=>	{	0	fname->	john	.}
+0	np->	nbar	.		=>	{	0	nbar->	fname	.}
+0	ROOT->	s	.		=>	{	0	s->	np	vp	.}
+0	ROOT->	s	.		=>	{	0	s->	np	vp	.}
+0	s->	np	vp	.		=>	{	0	np->	nbar	. ,	1	vp->	vbar	.}
+1	vp->	vbar	.		=>	{	1	vbar->	fv	.}
+0	s->	np	vp	.		=>	{	0	np->	nbar	. ,	1	vp->	vbar	vbar-mods	.}
+3	np->	fd	nbar	.		=>	{	3	fd->	this	. ,	4	nbar->	fname	.}
+4	nbar->	fname	.		=>	{	4	fname->	planet	.}
+1	vbar->	fv	.		=>	{	1	fv->	lives	.}
+
+Parsing was successful.!
+S [ NP [ FNAME [ john ]  ] VP [ VBAR [ FV [ lives ]  ] VBAR-MODS [ PP [ FP [ on ] NP [ FD [ this ] NBAR [ FNAME [ planet ]  ]  ]  ]  ]  ]  ] 

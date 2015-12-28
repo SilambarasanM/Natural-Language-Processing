@@ -1,0 +1,38 @@
+0	ROOT	s
+0	s	np vp
+0	np	pn
+0	np	pn rel
+0	np	det nbar
+0	np	det np
+0	nbar	n
+0	nbar	n rel
+0	rel	wh vp
+0	vp	iv
+0	vp	tv np
+0	vp	dv np pp
+0	vp	sv s
+0	pp	p np
+0	pn	vincent
+0	pn	mia
+0	pn	marsellus
+0	pn	jules
+0	det	a
+0	det	the
+0	det	her
+0	det	his
+0	n	gun
+0	n	robber
+0	n	man
+0	n	woman
+0	wh	who
+0	wh	that
+0	p	to
+0	iv	died
+0	iv	fell
+0	tv	loved
+0	tv	shot
+0	tv	knew
+0	dv	gave
+0	dv	handed
+0	sv	knew
+0	sv	believed

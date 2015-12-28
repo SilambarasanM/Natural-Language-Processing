@@ -1,0 +1,75 @@
+0	ROOT	s
+0	s	np vp
+0	s	faux np vp
+0	s	np fis np
+0	s	s fcnj s
+0	np	fname
+0	np	fname fname
+0	np	fpron
+0	np	nbar
+0	np	fd nbar
+0	np	np fcnj np
+0	nbar	fn
+0	nbar	fname
+0	nbar	fn nbar-mods
+0	nbar-mods	pp
+0	nbar-mods	pp nbar-mods
+0	vp	vbar
+0	vp	vbar vbar-mods
+0	vp	vp fcnj vp
+0	vbar	fv
+0	vbar	faux fv
+0	vbar	vbar np
+0	vbar	vbar np np
+0	vbar	vbar np pp
+0	vbar-mods	pp
+0	vbar-mods	pp vbar-mods
+0	pp	fp np
+0	fis	is
+0	fname	buckaroo
+0	fname	banzai
+0	fname	john
+0	fname	whorfin
+0	fname	planet
+0	fname	earth
+0	fname	chicago
+0	fname	ten
+0	fn	jetcar
+0	fn	alien 
+0	fn	aliens
+0	fn	watermelon
+0	fn	watermelons
+0	fpron	i
+0	fpron	we
+0	fpron	us
+0	fpron	you
+0	fpron	he
+0	fpron	she
+0	fpron	it
+0	fpron	they
+0	fd	a
+0	fd	the
+0	fd	this
+0	fd	these
+0	fv	drive 
+0	fv	drives
+0	fv	driven
+0	fv	driving
+0	fv	give  
+0	fv	gives 
+0	fv	live  
+0	fv	lives 
+0	fv	steal 
+0	fv	steals
+0	faux	do
+0	faux	did
+0	faux	does
+0	faux	will
+0	faux	was
+0	faux	is
+0	fp	in
+0	fp	on
+0	fp	to
+0	fp	from
+0	fcnj	and
+0	fcnj	so
