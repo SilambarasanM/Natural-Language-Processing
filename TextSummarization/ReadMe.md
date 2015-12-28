@@ -1,13 +1,6 @@
-Name		: Silambarasan Madanakumar
-CWID		: A20282417
-Course		: CS585 - Natural Language Processing
-Assignment	: 3
+#Text Summarization using Lexical Chains
 
-Madanakumar-Silambarasan-Homework-3.zip
-
-DESCRIPTION OF SOURCE FILES:
-
-Structure:
+##Structure:
 
 <LexicalChains>
 	- build.xml
@@ -31,7 +24,7 @@ Structure:
 		- commons-logging-1.2.jar
 		- stanford-postagger.jar
 
-Description:
+##Description:
 
 build.xml			--> Ant build file exported from Eclipse IDE. This can be used to create a 'New Project' using 'Java Project from existing Ant Buildfile' option.
 
@@ -58,11 +51,11 @@ commons-logging-1.2.jar	--> Apache Commons-logging java library files for jwnl l
 stanford-postagger.jar	--> Java Libraries for POS Tagger implementation for the initial filtering noun from the given text.
 
 
-JAVA Version Used:
+##JAVA Version Used:
 java version "1.8.0_60"
 Java(TM) SE Runtime Environment (build 1.8.0_60-b27)
 Java Hotspot(TM) 64-Bit Server VM (build 25.60-b23, mixed mode)
 
-Notes for Execution:
+##Notes for Execution:
 
 The input file name along with the complete path need to be entered when the program prompts for the filename. LexicalChains.java file contains the main thread for the execution of this project.
