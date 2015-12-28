@@ -1,5 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////
-CS 485, Assignment #4 - Earley Parser
+#Earley Parser
 Paul Chase
 
 	This assignment may be run from the bin directory, and has two modes:
@@ -14,7 +13,7 @@ Paul Chase
 	an aide, final code should print actual parses only.
 	
 	The grammars are in the /grammars directory.
-
+##Author Note:
 	The implementation is a direct Earley parser, with some optimizations
 based on doing smaller checks to try and improve performance on small grammars.
 Basically I try to limit the number of times we need to search the entire
